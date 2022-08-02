@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/0dd7eb61a6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../css/estilos.css">
+    <title>Venecia Estetica - Comprar</title>
+</head>
+<body>
+    <header>
+      <a href="../index.html" class="titulo"><h1>Venecia Estetica</h1></a>
+      <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+        <div>
+            <img src="../img/logo.JPG" class="portada" alt="">
+            
+        </div>
+    <main>
+
+<form id="formul">
+  <div>
+      <label for="nombre">
+          Completa tu nombre
+      </label>
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="text" name="Apellido" placeholder="Apellido">
+  </div>
+      <div>
+          <label for="email">
+              Completa tu email
+          </label>
+          <input type="email" name="email" placeholder="Colocar email">
+      </div> 
+    <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+      <div>
+          <input type="button" value="SEGUIR COMPRANDO"  id="buttonCompra">
+          <input type="button" value="FINALIZAR COMPRA"  id="buttonFinalizar">
+      </div>
+       
+</form>
+    </main>
+ <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <button id="vaciar-carrito" class="boton-agregar">VACIAR CARRITO</button>
+            <button id="comprar-producto" class="boton-agregar">COMPRAR</button>
+        </div>
+    </div>
+    <footer id="contenedor-footer">
+        <div class="icono">
+            <a target="_blank">
+              <i class="fa-brands fa-instagram icono1"></i>
+            </a>
+            <i class="fa-brands fa-tiktok icono1"></i>
+            <i class="fa-brands fa-facebook icono1"></i>
+          </div>
+          <p class="p-footer">
+            <strong class="s-footer"> Venecia Estetica - </strong>      Todos los derechos reservados.
+          </p>
+    </footer>
+    <script defer src="../js/modal.js"></script>
+    <script defer src="../js/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

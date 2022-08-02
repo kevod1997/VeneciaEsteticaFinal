@@ -1,0 +1,114 @@
+[
+    {   "id": 1, 
+        "nombre": "Esmalte", 
+        "marca": "OPI", 
+        "cantidad": 1, 
+        "precio": 2500, 
+        "img": "../img/rojo.jpg"
+    },
+
+    {   "id": 2, 
+        "nombre": "Esmalte", 
+        "marca": "OPI", 
+        "cantidad": 1, 
+        "precio": 2500, 
+        "img": "../img/gris.jpg"
+    },
+
+    {   "id": 3, 
+        "nombre": "Esmalte", 
+        "marca": "OPI", 
+        "cantidad": 1, 
+        "precio": 2500, 
+        "img": "../img/rosa.jpg"
+    },
+
+    {   "id": 4, 
+        "nombre": "Esmalte", 
+        "marca": "OPI", 
+        "cantidad": 1, 
+        "precio": 2500, 
+        "img": "../img/azulmarino.jpg"
+    },
+
+    {   "id": 5, 
+        "nombre": "Esmalte", 
+        "marca": "OPI", 
+        "cantidad": 1, 
+        "precio": 2500, 
+        "img": "../img/negro.jpg"
+    },
+
+    {   "id": 6, 
+        "marca": "Victoria Secret",
+        "nombre": "Bodysplash", 
+        "cantidad": 1, 
+        "precio": 4000, 
+        "img":"../img/bsnaranja.jpg"
+    },
+
+    {   "id": 7, 
+        "marca": "Victoria Secret",
+        "nombre": "Bodysplash", 
+        "cantidad": 1, 
+        "precio": 5000, 
+        "img":"../img/bsamarillo.jpg"
+    },
+
+    {   "id": 8, 
+        "marca": "Victoria Secret",
+        "nombre": "Bodysplash", 
+        "cantidad": 1, 
+        "precio": 5000, 
+        "img":"../img/bsrosa.jpg"
+    },
+
+    {   "id": 9, 
+        "marca": "Victoria Secret",
+        "nombre": "Bodysplash", 
+        "cantidad": 1, 
+        "precio": 5000, 
+        "img":"../img/bsmarron.jpg"
+    },
+
+    {   "id": 10, 
+        "marca": "Victoria Secret",
+        "nombre": "Bodysplash", 
+        "cantidad": 1, 
+        "precio": 5000, 
+        "img":"../img/bsvioleta.jpg"
+    },
+
+    {   "id": 11, 
+        "marca": "Lidherma",
+        "nombre": "LUMIN EYES", 
+        "cantidad": 1, 
+        "precio": 4250, 
+        "img":"../img/lumineyes.jpg"
+    },
+
+    {   "id": 12, 
+        "marca": "Lidherma",
+        "nombre": "HYDRAPORE", 
+        "cantidad": 1, 
+        "precio": 4000, 
+        "img":"../img/hydrapore.jpg"
+    },
+
+    {   "id": 13, 
+        "marca": "Lidherma",
+        "nombre": "PROTECTOR", 
+        "cantidad": 1, 
+        "precio": 4500,  
+        "img":"../img/protectorsolar.jpg"
+    },
+
+    {   "id": 14, 
+        "marca": "Lidherma",
+        "nombre": "SENSE CONTROL", 
+        "cantidad": 1, 
+        "precio": 4000,  
+        "img":"../img/sensecontrol.jpg"
+    }
+
+]

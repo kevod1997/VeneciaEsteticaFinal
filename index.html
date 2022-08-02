@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/0dd7eb61a6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/estilos.css">
+    <title>Tienda Online</title>
+</head>
+<body>
+    
+    <header>
+      <h1 id="titulo" class="titulo">Venecia Estetica - Tienda Online</h1>
+      <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+        <div>
+            <img src="img/logo.JPG" class="portada" alt="">
+        </div>
+    <main id="contenedor-home">
+        <div>
+            <p class="textIndex"> Esmaltes O.P.I.</p>
+            <a href="./Productos/esmalte.html"><img src="img/opi-infinite-shine.jpg" class="marcas" alt="">
+            </a>
+        </div>
+        <div>
+            <p class="textIndex">Bodysplash Victoria Secret</p>
+            <a href="./Productos/bodysplash.html"><img src="img/bodysplash.jpg" class="marcas" alt="">
+            </a>
+        </div>
+        <div>
+            <p class="textIndex"> Productos Lidherma</p>
+            <a href="./Productos/lidherma.html"><img src="img/lidherma.jpg" class="marcas" alt="">
+            </a>
+        </div>
+    </main>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">VACIAR CARRITO</button>
+            <button id="comprar-producto" class="boton-agregar">COMPRAR</button>
+        </div>
+    </div>
+    <section id="contenedor-productos">
+       
+        
+    </section>
+    <footer id="contenedor-footer">
+        <div class="icono">
+            <a target="_blank">
+              <i class="fa-brands fa-instagram icono1"></i>
+            </a>
+            <i class="fa-brands fa-tiktok icono1"></i>
+            <i class="fa-brands fa-facebook icono1"></i>
+          </div>
+          <p class="p-footer">
+            <strong class="s-footer"> Venecia Estetica - </strong>      Todos los derechos reservados.
+          </p>
+    </footer>
+    <script defer src="../js/modal.js"></script>
+    <script defer src="../js/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
